@@ -6,6 +6,7 @@ The user can come back to the application at a later time after closing or reset
 
 
 ## Link to Website
+https://chadedwardsofficial.github.io/daily-organizer/
 
 
 
@@ -24,3 +25,4 @@ All techniques used in this website are derived from SMU Coding Boot Camp, Onlin
 
 
 ## Update
+Last updated: 10/8/2023
