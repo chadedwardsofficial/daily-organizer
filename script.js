@@ -1,4 +1,4 @@
-var currentHour = parseInt(dayjs().format("HH"));
+var currentHour = parseInt(dayjs().format("HH"));  // Used HH in formatting to display back military time. This will help with keeping track of time regardless of AM/PM. 
 $(document).ready(function () {
   function updateTime() {
     var currentTimeElement = document.getElementById("current-time");
@@ -10,7 +10,6 @@ $(document).ready(function () {
     var time = $(this).parent().attr("id");
     var text = $(this).siblings(".description").val();
     console.log(time, text);
-    // this has saved us from writing this function 9 times
     localStorage.setItem(time, text);
   });
   
